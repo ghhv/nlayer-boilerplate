@@ -7,6 +7,10 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NLayerBoilerplate.Data", "N
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NLayerBoilerplate.Core", "NLayerBoilerplate.Core\NLayerBoilerplate.Core.vbproj", "{2EB7B835-D824-4401-942E-7306BDA86301}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NLayerBoilerplate.Web", "NLayerBoilerplate.Web\NLayerBoilerplate.Web.vbproj", "{B31939CC-CE25-43E6-8A85-4759475C6854}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NLayerBoilerplate.API", "NLayerBoilerplate.API\NLayerBoilerplate.API.vbproj", "{18C6E184-C060-47F4-8B16-BB80C72B1A4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2EB7B835-D824-4401-942E-7306BDA86301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB7B835-D824-4401-942E-7306BDA86301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB7B835-D824-4401-942E-7306BDA86301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B31939CC-CE25-43E6-8A85-4759475C6854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31939CC-CE25-43E6-8A85-4759475C6854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B31939CC-CE25-43E6-8A85-4759475C6854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B31939CC-CE25-43E6-8A85-4759475C6854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C6E184-C060-47F4-8B16-BB80C72B1A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C6E184-C060-47F4-8B16-BB80C72B1A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C6E184-C060-47F4-8B16-BB80C72B1A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C6E184-C060-47F4-8B16-BB80C72B1A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

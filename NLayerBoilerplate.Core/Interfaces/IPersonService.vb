@@ -8,7 +8,7 @@ Namespace Interfaces
         Function GetById(id As Integer) As PersonModel
         Function GetAll() As IEnumerable(Of PersonModel)
         Sub Update(person As PersonModel)
-        Sub Delete(person As PersonModel)
+        Sub Delete(id As Integer)
 
     End Interface
 

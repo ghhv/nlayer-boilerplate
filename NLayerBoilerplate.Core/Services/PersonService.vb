@@ -8,7 +8,7 @@ Namespace Services
     Public Class PersonService
         Implements IPersonService
 
-        Private ReadOnly Property UnitOfWork As EFUnitOfWork(Of Person, Integer)
+        Private ReadOnly Property UnitOfWork As New EFUnitOfWork(Of Person, Integer)(New ExampleDbContext)
 
         Public Sub Create(person As PersonModel) Implements IPersonService.Create
             UnitOfWork.Repository.Create(person)
@@ -30,8 +30,8 @@ Namespace Services
             UnitOfWork.SaveChanges()
         End Sub
 
-        Public Sub Delete(person As PersonModel) Implements IPersonService.Delete
-            UnitOfWork.Repository.Delete(person.Id)
+        Public Sub Delete(id As Integer) Implements IPersonService.Delete
+            UnitOfWork.Repository.Delete(id)
             UnitOfWork.SaveChanges()
         End Sub
 

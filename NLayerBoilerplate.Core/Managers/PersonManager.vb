@@ -15,12 +15,16 @@ Namespace Managers
             Return PersonService.GetById(id)
         End Function
 
+        Public Function GetAll() As IEnumerable(Of PersonModel)
+            Return PersonService.GetAll()
+        End Function
+
         Public Sub Update(person As PersonModel)
             PersonService.Update(person)
         End Sub
 
-        Public Sub Delete(person As PersonModel)
-            PersonService.Delete(person)
+        Public Sub Delete(id As Integer)
+            PersonService.Delete(id)
         End Sub
 
     End Class
